@@ -1,0 +1,18 @@
+# Terraform
+**/.terraform/*
+**/.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+
+*.tfplan
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
