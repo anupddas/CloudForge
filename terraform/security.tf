@@ -44,6 +44,7 @@ resource "aws_security_group" "web" {
   }
 
   tags = {
-    Name = "cloudforge-web-sg"
+  Name = "cloudforge-web-sg"
+  Owner = "anup"
   }
 }
