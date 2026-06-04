@@ -77,6 +77,8 @@ resource "aws_instance" "web" {
 
   associate_public_ip_address = true
 
+  disable_api_termination = true
+
   iam_instance_profile = aws_iam_instance_profile.ec2_profile.name
 
   user_data = file("${path.module}/../scripts/userdata.sh")
